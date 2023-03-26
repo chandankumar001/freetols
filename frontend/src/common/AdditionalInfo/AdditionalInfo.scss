@@ -1,0 +1,117 @@
+@import '../../assets/styles/variables';
+.additional-info-conatiner{
+
+  border-top:1px solid #dce3ec;
+
+  .ant-card-body{
+    padding: 10px!important;
+    width: 100% !important;
+  }
+
+  .additional-info-conatiner-col{
+    padding: 10px;
+    
+  }
+
+  .additional-info-conatiner-row{
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+
+  .card-container{
+    display: flex;
+    justify-content: center;
+    box-shadow: $box-shadow;
+    background: $background-color;
+    border-radius: 3rem !important;
+  }
+
+  .icon-div-tools{
+    font-size: 1.5rem;
+    padding: 1rem!important;
+    margin: 0 0.3rem!important;
+    border-radius: 50%;
+    transition: all 0.3s;
+    line-height: 1;
+    width:75px;
+    img{
+      width:80%
+    }
+  }
+
+  .additional-info-header{
+    padding: 1.1rem!important;
+    margin: 0 0.3rem!important;
+    color: $text-color-header;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 0.5rem!important;
+    padding-right: 0.5rem!important;
+  }
+
+  .icon-div-arrow{
+    font-size: 1.5rem;
+    padding: 1rem!important;
+    margin: 0 0.3rem!important;
+    border-radius: 50%;
+    transition: all 0.3s;
+    line-height: 1;
+    width:75px;
+    height:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#706f70
+  }
+
+  .additional-info-tools{
+    padding: 1.1rem!important;
+    margin: 0 0.8rem!important;
+    color: #060014;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+    text-align: center;
+    padding-right: 0rem!important;
+  }
+
+  .company-desc{
+    font-size: 14px;
+    line-height: 140%;
+    color: #828586;
+    text-align: left;
+  }
+
+  .logo-desc{
+    text-align: left;
+    margin:10px;
+  }
+
+  .navigate-desc{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #525658;
+    text-align: left;
+    margin:20px;
+    margin-left:30px;
+  }
+
+  .navigate-subhead-desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #829ab1;
+    text-align: left;
+    margin-left:30px;
+    cursor:pointer;
+  }
+}

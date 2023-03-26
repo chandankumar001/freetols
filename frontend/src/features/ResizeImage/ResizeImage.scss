@@ -1,0 +1,238 @@
+@import '../../assets/styles/variables';
+.resize-container{
+  margin-top: 0px;
+  .row-width{
+    width:100%
+  }
+
+  .page-header-resize{
+    // margin: 0 0.8rem!important;
+    color: #060014;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 0.5rem!important;
+  }
+
+  .page-subheader-resize{
+    padding: 1.1rem!important;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    color: $text-color !important;
+    font-weight: 700;
+    padding-right: 0rem!important;
+    padding-top: 0rem!important;
+    padding-left: 0rem!important;
+  }
+
+  .page-header-resize-col{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dragger-conatiner{
+    // height:370px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .dragger-conatiner-upload-container{
+    width:200px;
+    height: calc(100vh - 150px);
+    background:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .dragger-conatiner-upload{
+    background: teal;
+    height:50px;
+    width:300px;
+    border-radius: 12px;
+  }
+
+  .upload-icon-div{
+    margin-top: -5px;
+  }
+
+  .upload-text-col{
+    text-align: left;
+    margin-left:8px;
+  }
+
+  .upload-icon{
+    font-size:30px;
+    color:white;
+  }
+
+  .upload-text{
+    color:#fff;
+    font-size:16px;
+    font-weight: 500;
+
+  }
+
+  .ant-upload-text{
+    color: #03cfcf!important;
+  }
+
+  .card-resize-all{
+    height:370px;
+    padding:50px;
+    padding-top:10px;
+    
+  }
+  
+
+  .card-image-conatiner{
+    padding-right:5px;
+    margin-top:10px;
+    .card-image-conatiner-card{
+      
+      box-shadow: $box-shadow-card;
+    }
+  }
+
+  .ant-card-body{
+    padding: 5px !important;
+  }
+
+  .load-image-desc-left{
+    padding-right:2px;
+    padding-left:2px;
+  }
+
+  .load-image-desc-right{
+    padding-left:2px;
+    padding-right:2px;
+  }
+
+  .select-item{
+    height:75px;
+    .ant-select{
+      // height:10px;
+    }
+  }
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    min-height:44px;
+    border:1px solid #278c8c;
+  }
+
+  .resize-button{
+    margin-bottom: 10px;
+    width:100%;
+  }
+
+  .resize-button-all{
+    margin-bottom: 10px;
+    width:100%;
+  }
+
+  .cancel-button-all{
+    margin-bottom: 10px;
+    width:100%;
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid teal;
+  }
+
+  .form-image-details-resize{
+    padding:10px;
+    padding-top: 10px;
+  }
+
+  .delete-icon{
+    margin-top:10px;
+    margin-right:10px;
+    float:right;
+    font-size: 18px;
+    position: absolute;
+    right:10px;
+    z-index:10000;
+    opacity:0;
+  }
+
+  .overlay {
+    position: absolute; 
+    // bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    color: #f1f1f1; 
+    width: 100%;
+    height:300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: right;
+  }
+
+  .image-overlay:hover{
+      .overlay {
+      opacity: 0.9;
+    } 
+    .delete-icon{
+      opacity:1;
+    }
+  }
+
+  .ant-select-single .ant-select-selector::after, .ant-select-single .ant-select-selector .ant-select-selection-item::after, .ant-select-single .ant-select-selector .ant-select-selection-placeholder::after {
+    margin-top:5px;
+    margin-left: 27px;
+  }
+
+
+  .site-card-border-less-wrapper{
+    border: 1px solid #c4dcdc;
+    border-radius:20px;
+    margin-top:10px;
+    background: #e6e4e4;
+    padding-bottom: 5px;
+  }
+
+  .col-resize-conatiner{
+    display:flex;
+    justify-content: center;
+  }
+
+  .form-item{
+    font-weight: 600;
+    color: #fff !important;;
+  }
+
+  @media #{$MediaScreenMdXS} {
+    .ant-form .ant-form-item .ant-form-item-label, .ant-form .ant-form-item .ant-form-item-control {
+      flex: 0 0 46% !important; 
+    }
+    .card-resize-all{
+      height:370px;
+      padding:5px;
+      padding-top:10px;
+      margin-top: 10px;;
+      
+    }
+  }
+
+  @media #{$MediaScreenXll} {
+    .dragger-conatiner-upload-container{
+      width:80px;
+      height: calc(90vh - 300px);
+      background:#fff;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+}

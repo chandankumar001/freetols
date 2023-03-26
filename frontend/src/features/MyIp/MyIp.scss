@@ -1,0 +1,123 @@
+@import '../../assets/styles/variables';
+.myip-app{
+  table, th, td {
+    // border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table{
+    border: 1px solid rgb(213, 213, 213);
+    margin-top: 20px;
+    margin-bottom:10px;
+  }
+  td {
+    padding: 10px;
+    // text-align: left;
+    width: 200px !important;
+  }
+
+  th{
+    
+    padding: 10px;
+    // text-align: left;
+    width: 200px !important;;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .text-align-left{
+    text-align:left;
+  }
+
+  .common-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ip-head-text{
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .ip-content-text{
+    font-size: large;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+  .ip-note-div{
+    margin-top:20px;
+  }
+
+  .ip-note-text{
+    font-size:small;
+    font-weight: 400;
+  }
+
+  .card-ip-details{
+    margin-top:3px;
+    box-shadow: $box-shadow-card;
+    min-height:505px;
+  }
+
+  .row-width{
+    width:100%;
+  }
+
+  .width50{
+    width: 40%;
+  }
+
+  .search-row{
+    position: absolute;
+    top: 40px;
+    width: 97%;
+  }
+
+  .map-row{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    position: absolute;
+    bottom: 20px;
+    .button-map{}
+
+   }
+  .map-row-td{
+    border-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-details-myip{
+    min-height:505px;
+  }
+
+  .card-myip-explain{
+    min-height:400px;
+  }
+  .card-myip-explain-col-dynamic{
+    padding-right:5px;
+  }
+  .card-myip-explain-col-static{
+  }
+  .card-myip-explain-col-physical{
+    padding-left:2px;
+  }
+
+  .card-myip-explain-col-ipdetails{
+    padding-right: 1px;
+    width:100%!important;
+    text-align: left;
+    .ant-card-body{
+      width:100%!important;
+    }
+  }
+
+  .card-myip-explain-col-ipexplain{
+    padding-left: 1px;
+  }
+}

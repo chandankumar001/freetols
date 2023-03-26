@@ -1,0 +1,56 @@
+@import '../../assets/styles/variables';
+.footer-app{
+  z-index: 999;
+  .footer-row{
+    width:100%;
+    height:100px;
+    background: $background-color;
+    z-index: 1000;
+    box-shadow: $box-shadow-footer;
+  }
+
+  .cursor-pointer{
+    cursor:pointer;
+  }
+
+  .common_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-footer-comapany{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-brand-text{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #000412 !important;
+    font-weight: 700;
+  }
+
+  .footer-company-name-href{
+    color: #1677ff!important;
+  }
+
+  .footer-company-name{
+    color: $brand-color !important;
+  }
+
+  .common_center-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .text-style{
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

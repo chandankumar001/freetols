@@ -1,0 +1,40 @@
+@import '../../assets/styles/variables';
+.crop-container{
+  .common-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upload-icon{
+    height: 300px!important;;
+  }
+
+  .image-preview-row-crop{
+    width: 100%;
+  }
+
+  .card-crop{
+    box-shadow: $box-shadow-card;
+  }
+
+  .card-image-conatiner-crop-button{
+    height:200px;
+    margin-top:30px;
+    width: 100%;
+    .button-crop{
+      width:250px;
+      font-size: 22px;
+    }
+    .ant-btn {
+      height: 72px !important;
+    }
+    .ant-card-body{
+      width:100%;
+    }
+  }
+
+  @media #{$MediaScreenMdXS} {
+
+  }
+
+}

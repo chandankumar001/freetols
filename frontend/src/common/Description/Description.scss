@@ -1,0 +1,86 @@
+@import '../../assets/styles/variables';
+.desc-container{
+  margin-bottom: 10px;
+
+  .row-width{
+    width:100%
+  }
+
+  .header-text-desc{
+    margin-top:10px;
+    color: $text-color-header;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .header-content-text-desc{
+    color:$text-color;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+  }
+
+  .head-desc{
+    margin-bottom:30px;
+  }
+
+  .card-container{
+    display: flex;
+    justify-content: center;
+    box-shadow:$box-shadow;
+    background: $background-color;
+    border-radius: 3rem !important;
+  }
+
+  .flex-card-container{
+    display:flex;
+    justify-content: flex-start;
+  }
+
+  .image-desc-container{
+    border-radius: 1rem !important;
+  }
+
+  .image-desc-header{
+    margin-top:10px;
+    color: $text-color-header;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .image-desc-content{
+    color: $text-color;
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 400;
+    padding-left: 25px;;
+  }
+
+  .card-image-desc{
+    display: flex;
+    align-items: center;
+  }
+
+  .card-container-desc{
+    margin-top:30px;
+  }
+
+}

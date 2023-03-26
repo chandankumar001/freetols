@@ -1,0 +1,79 @@
+$text-color: #6c758f;
+$text-color-header: #36187d;
+$background-color: #f2f3f7;
+$background-color-header: #fff;
+$brand-color:#027878;
+$box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+$box-shadow-footer:0 0px 1px #027878 ;
+$box-shadow-card: 0.6em 0.6em 1.2em 1px 1px 1px 1px #00000029;
+
+
+// $text-color: #6c758f;
+// $text-color-header: #36187d;
+// $background-color: #f2f3f7;
+// $brand-color:#027878;
+// $box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+// $box-shadow-footer:0 0px 1px #027878 ;
+// $box-shadow-card: 0.6em 0.6em 1.2em 1px 1px 1px 1px #00000029;
+
+
+$primary-color: #9e6191;
+$primary-color-profile: #1fac1d;
+$error-color: #ff0000;
+$font-weight:400;
+$footer-height: 2.5rem;
+$Custom-font-size: 1.1rem;
+$linear-layout-background:linear-gradient(60deg, #ccd9e5 40%,#caf3f6 84%);
+$linear-myprofile-second-row:#ffffff;
+$my-profile-background:#ffffff !important ;
+$team-join-width:120px;
+$myprofile-text-color:rgb(100, 98, 98);
+$background-color-profile-block:#ffffff;
+$myprofile-text-color-placeholder: rgb(100, 98, 98)!important;
+$primary-color-gradient : linear-gradient(108deg, #9E6190 0%, #572E56 100%);
+
+// MEDIA BREAKPOINTS
+$MediaXxs: 220px;
+$MediaXs: 576px;
+$MediaSm: 768px;
+$MediaMd: 992px;
+$MediaLg: 1024px;
+$MediaLgTeam: 765px;
+$MediaXl: 1600px;
+$MediaXxl: 1920px;
+
+/* Min width 1600 Above */
+
+$MediaScreenXxl: 'only screen and (min-width: #{$MediaXxl})';
+
+/* Min width 1025 - Max width 1599 */
+
+$MediaScreenXl: 'only screen and (min-width: #{$MediaXl}) and (max-width: #{$MediaXxl})';
+
+/* Min width 1025  */
+
+$MediaScreenXll: 'only screen and (min-width: #{$MediaXl})';
+
+/* Min width 940 - Max width 1024 */
+
+$MediaScreenLg: 'only screen and (min-width: #{$MediaLg}) and (max-width: #{$MediaXl})';
+
+$MediaScreenLgMyProfile: 'only screen and (min-width: #{$MediaLg})';
+
+$MediaScreenLgMyTeam: 'only screen and (min-width: #{$MediaLgTeam})';
+
+/* Min width 768 - Max width  939*/
+
+$MediaScreenMd: 'only screen and (min-width: #{$MediaMd}) and (max-width: #{$MediaLg})';
+
+/* Min width 576 - Max width 767 */
+
+$MediaScreenSm: 'only screen and (min-width: #{$MediaSm}) and (max-width: #{$MediaMd})';
+
+$MediaScreenMdXS: 'only screen and (max-width: #{$MediaMd})';
+
+/* Min width 220 - Max width 575 */
+
+$MediaScreenXs: 'only screen and (min-width: #{$MediaXs}) and (max-width: #{$MediaSm})';
+$MediaScreenXxs: 'only screen and (min-width: #{$MediaXxs}) and (max-width: #{$MediaXs})';
+// @media only screen and (max-width: 600px) and (min-width: 400px)
